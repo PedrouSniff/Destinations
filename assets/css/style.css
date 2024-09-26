@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../assets/lib/Roboto-Regular.ttf')
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end
+}
+
+a {
+    padding-right: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.button:hover {
+    color: black;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.button1 {
+    color: white;
+    background-color: rgb(112, 45, 112);
+    padding: 10px;
+    margin-left: 90px;
+}
+
+.button1:hover {
+    color:black
+}
+
+.button2 {
+    color: white;
+    background-color: rgb(245, 11, 11);
+    padding: 10px;
+    margin-left: 90px;
+}
+
+.button2:hover {
+    color:black
+}
+
+.button3 {
+    color: white;
+    background-color: rgb(14, 65, 175);
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.button3:hover {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+}
+h1 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.square1 {
+    width: 320px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+p {
+    padding-top: 20px;
+    margin-bottom: 3rem;
+    margin-left: 10px;
+}
+
+.square2 {
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.TextTokyo {
+    margin-bottom: 31px;
+}
+
+.square3 {
+    width: 320px;
+    height: 520px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.TextNew {
+    margin-top: 2px;
+
+}
