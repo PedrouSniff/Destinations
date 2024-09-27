@@ -82,8 +82,9 @@ h1 {
 .square1 {
     width: 320px;
     height: 520px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255);
     border: 1px solid black;
+    box-shadow: 10px 10px 10px grey;
 }
 
 p {
@@ -97,6 +98,7 @@ p {
     height: 520px;
     background-color: white;
     border: 1px solid black;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .TextTokyo {
@@ -108,6 +110,7 @@ p {
     height: 520px;
     background-color: white;
     border: 1px solid black;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .TextNew {
